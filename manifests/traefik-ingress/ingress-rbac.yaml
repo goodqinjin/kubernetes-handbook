@@ -6,8 +6,8 @@ metadata:
 
 ---
 
-kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1beta1
+kind: ClusterRoleBinding
 metadata:
   name: ingress
 subjects:
